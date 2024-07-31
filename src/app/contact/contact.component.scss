@@ -1,0 +1,242 @@
+.breadcam_bg_1 {
+    background-image: url(../../assets/images/bradcam.png);
+}
+
+.bradcam_area {
+    background-size: cover;
+    background-position: center center;
+    padding: 175px 0 100px 0px;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 992px) {
+
+    .flexi {
+        display: flex;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .flexi {
+        display: flex;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .flexi {
+        display: flex;
+    }
+}
+
+@media (max-width: 767px) {
+    .bradcam_area {
+        padding: 150px 0 120px 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .envelope{
+        margin-left: 90px;
+        text-align: center;
+    }
+    .thumb_1 img {
+        display: none;
+        min-height: 380px;
+        // height: 70%;
+        // width: 100%;
+    } 
+}
+
+.bradcam_area h3 {
+    font-size: 50px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+
+@media (max-width: 767px) {
+    .bradcam_area h3 {
+        font-size: 35px;
+    }
+}
+
+.bradcam_area p {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.bradcam_area p a {
+    color: #fff;
+}
+
+.bradcam_area p a:hover {
+    color: #fff;
+}
+
+.Emergency_contact {
+    position: relative;
+    z-index: 1;
+}
+
+/* line 4, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_emergency_contact.scss */
+.Emergency_contact::before,
+.Emergency_contact::after {
+    background-image: url(../../assets/images/slider-4.jpg);
+    content: "";
+    width: 50%;
+    top: 0;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+/* line 13, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_emergency_contact.scss */
+.Emergency_contact::before {
+    left: 0;
+    top: 0;
+}
+
+/* line 17, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_emergency_contact.scss */
+.Emergency_contact::after {
+    right: 0;
+    top: 0;
+    background-image: url(../../assets/images/slider-3.webp);
+}
+
+/* line 22, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_emergency_contact.scss */
+.Emergency_contact .Emergency_contact_inner {
+    padding: 100px 0;
+    position: relative;
+    z-index: 1;
+}
+
+/* line 26, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_emergency_contact.scss */
+.Emergency_contact .Emergency_contact_inner::before,
+.Emergency_contact .Emergency_contact_inner::after {
+    background-color: rgba(0, 171, 231, 0.8);
+    content: "";
+    width: 50%;
+    top: 0;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+@media (max-width: 767px) {
+
+    /* line 26, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_emergency_contact.scss */
+    .Emergency_contact .Emergency_contact_inner::before,
+    .Emergency_contact .Emergency_contact_inner::after {
+        width: 100%;
+    }
+}
+
+/* line 38, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_emergency_contact.scss */
+.Emergency_contact .Emergency_contact_inner::before {
+    left: 0;
+    top: 0;
+}
+
+/* line 42, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_emergency_contact.scss */
+.Emergency_contact .Emergency_contact_inner::after {
+    right: 0;
+    top: 0;
+    background-color: rgba(0, 113, 253, 0.8);
+}
+
+/* line 47, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_emergency_contact.scss */
+.Emergency_contact .Emergency_contact_inner .single_emergency {
+    position: relative;
+    z-index: 87;
+}
+
+@media (max-width: 767px) {
+
+    /* line 47, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_emergency_contact.scss */
+    .Emergency_contact .Emergency_contact_inner .single_emergency {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+        justify-content: start !important;
+    }
+}
+
+/* line 58, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_emergency_contact.scss */
+.Emergency_contact .Emergency_contact_inner .single_emergency .icon {
+    font-size: 100px;
+    line-height: 1;
+    color: #fff;
+    margin-right: 40px;
+}
+
+@media (max-width: 767px) {
+
+    /* line 58, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_emergency_contact.scss */
+    .Emergency_contact .Emergency_contact_inner .single_emergency .icon {
+        font-size: 45px;
+        margin-right: 10px;
+    }
+}
+
+/* line 70, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_emergency_contact.scss */
+.Emergency_contact .Emergency_contact_inner .single_emergency .info span {
+    display: block;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 4px;
+    font-family: "Work Sans", sans-serif;
+}
+
+@media (max-width: 767px) {
+
+    /* line 70, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_emergency_contact.scss */
+    .Emergency_contact .Emergency_contact_inner .single_emergency .info span {
+        font-size: 15px;
+    }
+}
+
+/* line 80, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_emergency_contact.scss */
+.Emergency_contact .Emergency_contact_inner .single_emergency .info h3 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+@media (max-width: 767px) {
+
+    /* line 80, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_emergency_contact.scss */
+    .Emergency_contact .Emergency_contact_inner .single_emergency .info h3 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    /* line 89, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_emergency_contact.scss */
+    .Emergency_contact .Emergency_contact_inner .single_emergency .info_button {
+        margin-bottom: 30px;
+    }
+}
+
+/* line 93, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_emergency_contact.scss */
+.Emergency_contact .Emergency_contact_inner .single_emergency .info_button a {
+    margin-top: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* line 102, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_emergency_contact.scss */
+    .single_emergency.align-items-center.d-flex.justify-content-end {
+        -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+        justify-content: start !important;
+        margin-top: 37px;
+    }
+}

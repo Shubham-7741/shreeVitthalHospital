@@ -1,0 +1,136 @@
+.card {
+    position: relative;
+    width: 350px;
+    height: 400px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 1000px;
+    box-shadow: 0 0 0 5px #ffffff80;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+// .card svg {
+//     width: 48px;
+//     fill: #333;
+//     transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+// }
+
+.card:hover {
+    // transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+
+.card__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    transform: rotateX(-90deg);
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card:hover .card__content {
+    transform: rotateX(0deg);
+}
+
+.card__title {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+    font-weight: 700;
+}
+
+.card:hover svg {
+    scale: 0;
+}
+
+.card__description {
+    margin: 10px 0 0;
+    font-size: 15px;
+    color: #414141;
+    line-height: 1.4;
+}
+
+@media (max-width: 767px) {
+    .mobile-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // height: 100vh;
+        /* Adjust the height based on your needs */
+    }
+}
+
+
+
+.breadcam_bg_1 {
+    background-image: url(../../assets/images/bradcam.png);
+}
+
+.bradcam_area {
+    background-size: cover;
+    background-position: center center;
+    padding: 175px 0 100px 0px;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 767px) {
+    .bradcam_area {
+        padding: 150px 0 120px 0;
+    }
+
+    .card {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        // margin: auto;
+    }
+
+    // .card .card__content {
+    //     // padding: 170px 0 150px 0;
+    // }
+    .card .card__content .card__description {
+        margin: 5px 0 0;
+        font-size: 15px;
+        color: #414141;
+        line-height: 1.4;
+    }
+}
+
+.bradcam_area h3 {
+    font-size: 50px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+
+@media (max-width: 767px) {
+    .bradcam_area h3 {
+        font-size: 35px;
+    }
+}
+
+.bradcam_area p {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.bradcam_area p a {
+    color: #fff;
+}
+
+.bradcam_area p a:hover {
+    color: #fff;
+}

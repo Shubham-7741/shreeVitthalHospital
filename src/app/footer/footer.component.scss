@@ -1,0 +1,464 @@
+.footer-basic {
+    padding: 40px 0;
+    background-color: #152538;
+    color: #FFFFFF;
+}
+
+.footer-basic ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.footer-basic li {
+    padding: 0 10px;
+}
+
+.footer-basic ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+    opacity: 1;
+}
+
+.footer-basic .social {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.footer-basic .social>a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    // border-radius: 50%;
+    // border: 1px solid #ccc;
+    margin: 0 8px;
+    color: inherit;
+    opacity: 0.75;
+}
+
+.footer-basic .social>a:hover {
+    opacity: 0.9;
+}
+
+.footer-basic .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+    margin-bottom: 0;
+}
+
+
+
+
+.button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(20, 20, 20);
+    border: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 0px 4px rgba(180, 160, 255, 0.253);
+    cursor: pointer;
+    transition-duration: 0.3s;
+    overflow: hidden;
+    // position: relative;
+}
+
+.svgIcon {
+    width: 12px;
+    transition-duration: 0.3s;
+}
+
+.svgIcon path {
+    fill: white;
+}
+
+
+
+// .button:hover {
+//     width: 140px;
+//     border-radius: 50px;
+//     transition-duration: 0.3s;
+//     background-color: #16B8ED;
+//     align-items: center;
+// }
+
+// .button:hover .svgIcon {
+//     /* width: 20px; */
+//     transition-duration: 0.3s;
+//     transform: translateY(-200%);
+// }
+
+// .button::before {
+//     position: absolute;
+//     bottom: -20px;
+//     content: "Back to Top";
+//     color: white;
+//     /* transition-duration: .3s; */
+//     font-size: 0px;
+// }
+
+// .button:hover::before {
+//     font-size: 13px;
+//     opacity: 1;
+//     bottom: unset;
+//     /* transform: translateY(-30px); */
+//     transition-duration: 0.3s;
+// }
+
+
+
+.footer li a:hover {
+    text-decoration: none;
+}
+
+.footer {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: #152538;
+    position: relative;
+    z-index: 0;
+}
+
+/* line 9, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
+.footer .footer_top {
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+
+    /* line 9, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
+    .footer .footer_top {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+}
+
+/* line 16, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget {
+    overflow: hidden;
+}
+
+/* line 18, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget .address_text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #b8bdc3;
+    line-height: 30px;
+}
+
+@media (max-width: 767px) {
+
+    /* line 16, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
+    .footer .footer_top .footer_widget {
+        margin-bottom: 40px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* line 16, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
+    .footer .footer_top .footer_widget {
+        margin-bottom: 30px;
+    }
+}
+
+/* line 30, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget .links {
+    position: relative;
+}
+
+/* line 32, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget .links li {
+    width: 10%;
+    float: left;
+}
+
+/* line 42, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget .meting_time li span {
+    color: #b8bdc3;
+    font-size: 16px;
+    line-height: 40px;
+    font-family: "Roboto", sans-serif;
+}
+
+/* line 50, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget .footer_title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 38px;
+    font-family: "Work Sans", sans-serif;
+    position: relative;
+    margin-bottom: 15px;
+    padding-bottom: 28px;
+}
+
+/* line 60, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget .footer_title::before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: '';
+    width: 30px;
+    height: 2px;
+    background: #fff;
+    z-index: 1;
+}
+
+@media (max-width: 767px) {
+
+    /* line 50, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
+    .footer .footer_top .footer_widget .footer_title {
+        margin-bottom: 20px;
+    }
+}
+
+/* line 74, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget .footer_logo {
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+}
+
+@media (max-width: 767px) {
+
+    /* line 74, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
+    .footer .footer_top .footer_widget .footer_logo {
+        margin-bottom: 20px;
+    }
+}
+
+/* line 84, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget p {
+    color: #AAB1B7;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #AAB1B7;
+}
+
+/* line 91, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget p a {
+    color: #AAB1B7;
+}
+
+/* line 93, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget p a:hover {
+    color: #009DFF;
+}
+
+/* line 99, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget p.footer_text {
+    font-size: 16px;
+    color: #B2B2B2;
+    margin-bottom: 23px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* line 105, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget p.footer_text a.domain {
+    color: #B2B2B2;
+    font-weight: 400;
+}
+
+/* line 108, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget p.footer_text a.domain:hover {
+    color: #009DFF;
+    border-bottom: 1px solid #009DFF;
+}
+
+/* line 114, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget p.footer_text.doanar a {
+    font-weight: 500;
+    color: #B2B2B2;
+}
+
+/* line 118, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget p.footer_text.doanar a:hover {
+    color: #009DFF;
+    border-bottom: 1px solid #009DFF;
+}
+
+/* line 122, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget p.footer_text.doanar a.first {
+    margin-bottom: 10px;
+}
+
+/* line 130, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget ul li {
+    color: #b8bdc3;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+/* line 134, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget ul li a {
+    color: #b8bdc3;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+/* line 138, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget ul li a:hover {
+    color: #009DFF;
+}
+
+/* line 144, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget .newsletter_form {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+/* line 147, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget .newsletter_form input {
+    width: 100%;
+    height: 50px;
+    background: #F5FBFF;
+    padding-left: 20px;
+    font-size: 15px;
+    color: #000;
+    border: none;
+    border: 1px solid #E8E8E8;
+    border-radius: 30px;
+    font-family: "Roboto", sans-serif;
+    padding-right: 120px;
+}
+
+/* line 159, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget .newsletter_form input::placeholder {
+    font-size: 15px;
+    color: #AAB1B7;
+}
+
+/* line 163, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget .newsletter_form input:focus {
+    outline: none;
+}
+
+/* line 167, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget .newsletter_form button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 40px;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+    background: #009DFF;
+    padding: 10px;
+    padding: 0 22px;
+    cursor: pointer;
+    border-radius: 30px;
+    top: 5px;
+    right: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+}
+
+/* line 187, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget .newsletter_text {
+    font-size: 14px;
+    color: #AAB1B7;
+    line-height: 26px;
+    font-family: "Roboto", sans-serif;
+}
+
+/* line 193, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget .instagram_feed {
+    margin: -7.5px -7.5px 0 -7.5px;
+}
+
+/* line 195, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget .instagram_feed .single_insta {
+    width: 33.33%;
+    float: left;
+    padding: 7.5px;
+    overflow: hidden;
+}
+
+/* line 201, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
+.footer .footer_top .footer_widget .instagram_feed .single_insta img {
+    width: 100%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+/* line 209, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
+.footer .copy-right_text {
+    padding-bottom: 32px;
+}
+
+/* line 211, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
+.footer .copy-right_text .copy_right {
+    font-size: 14px;
+    color: #b8bdc3;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+/* line 216, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
+.footer .copy-right_text .copy_right a {
+    color: #009DFF;
+}
+
+/* line 221, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
+.footer .socail_links {
+    margin-top: 10px;
+}
+
+@media (max-width: 767px) {
+
+    /* line 221, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
+    .footer .socail_links {
+        margin-top: 10px;
+    }
+}
+
+/* line 227, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
+.footer .socail_links ul li {
+    display: inline-block;
+}
+
+/* line 230, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
+.footer .socail_links ul li a {
+    font-size: 20px;
+    color: #C3B2F0;
+    width: 30px;
+    display: inline-block;
+    text-align: center;
+    background: transparent;
+    margin-right: 7px;
+    color: #FFFFFF;
+    line-height: 40px !important;
+    color: #E8E8E8;
+}
+
+/* line 245, ../../Arafath/CL/january 2020/241. Medical/HTML/scss/_footer.scss */
+.footer .socail_links ul li a:hover {
+    color: #009DFF !important;
+    border-color: transparent;
+}

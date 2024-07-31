@@ -1,0 +1,57 @@
+.breadcam_bg_2 {
+    background-image: url(../../assets/images/bradcam2.png);
+}
+
+.bradcam_area {
+    background-size: cover;
+    background-position: center center;
+    padding: 175px 0 100px 0px;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 767px) {
+    .bradcam_area {
+        padding: 150px 0 120px 0;
+    }
+}
+
+.bradcam_area h3 {
+    font-size: 50px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+
+@media (max-width: 767px) {
+    .bradcam_area h3 {
+        font-size: 35px;
+    }
+}
+
+.bradcam_area p {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.bradcam_area p a {
+    color: #fff;
+}
+
+.bradcam_area p a:hover {
+    color: #fff;
+}
+.zoom {
+    // padding: 50px;
+    // background-color: green;
+    transition: transform .2s; /* Animation */
+    // width: 200px;
+    // height: 200px;
+    // margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
